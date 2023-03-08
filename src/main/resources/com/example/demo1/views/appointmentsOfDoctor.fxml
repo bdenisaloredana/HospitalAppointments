@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane stylesheets="@css/tableView.css" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.Controllers.AppointmentsOfDoctorControler">
+   <children>
+      <TableView fx:id="tableViewAppointments" layoutX="2.0" layoutY="3.0" prefHeight="393.0" prefWidth="594.0">
+        <columns>
+          <TableColumn fx:id="tableViewAppointmentsPacientNameColumn" prefWidth="166.39996337890625" text="Pacient Name" />
+          <TableColumn fx:id="tableViewAppointmentsCnpColumn" prefWidth="138.4000244140625" text="CNP" />
+            <TableColumn fx:id="tableViewAppointmentsDateColumn" prefWidth="169.60003662109375" text="Date" />
+            <TableColumn fx:id="tableViewAppointmentsHourColumn" prefWidth="113.60009765625" text="Hour" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
